@@ -6,7 +6,7 @@ This repository contains the MATLAB code for VSOFI, a super-resolution imaging t
 ## Quick Start  
 
 ### 1. Download Data  
-Download the **fluorescence fluctuation data** from the [10.6084/m9.figshare.30446918](img.zip), and place the downloaded data files into the `./img/` directory.  
+Download the **fluorescence fluctuation data** from the [https://doi.org/10.6084/m9.figshare.30446918.v2](img.zip), and place the downloaded data files into the `./img/` directory.  
 
 
 ### 2. Run Reconstruction  
