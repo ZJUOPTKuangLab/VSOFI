@@ -5,7 +5,7 @@ addpath('.\deBKGD');
 
 %% setting
 filePath = '.\img\2025_2_15_0001_Confocal_Intensity_1';
-% filePath = '.\img\2025_2_26\0007_Confocal_Intensity_tub';
+% filePath = '.\img\2025_2_26\0007_Confocal_Intensity';
 % filePath = '.\img\2025_2_15_0001_Confocal_Intensity_4';
 % filePath = '.\img\2025_2_15_0003_Confocal_Intensity';
 % cut frames
@@ -179,6 +179,7 @@ clear Confocal imgIF imgOUT temp;
 for i = 1:numel(virtual_order)
     imwrite(mat2gray(VSOFI(:,:,i)),[savePath,'\VSOFI-iter',num2str(virtual_order(i)),'.tif']);
 end
+
 
 
 
