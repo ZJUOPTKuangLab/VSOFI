@@ -35,7 +35,7 @@ if ~exist(savePath, 'dir')
 end
 %% load data
 disp(['Load data from DriftCorrection mat...']);
-matName = 'DriftCorrectionmat\images';
+matName = 'DriftCorrectionmat\images20';
 matFile = fullfile(filePath, [matName, '.mat']);
 data = load(matFile);
 cutflag  = 1;
@@ -179,6 +179,7 @@ clear Confocal imgIF imgOUT temp;
 for i = 1:numel(virtual_order)
     imwrite(mat2gray(VSOFI(:,:,i)),[savePath,'\VSOFI-iter',num2str(virtual_order(i)),'.tif']);
 end
+
 
 
 
